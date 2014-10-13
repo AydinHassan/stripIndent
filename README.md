@@ -6,7 +6,7 @@ StripIndent
 [![Latest Stable Version](https://poser.pugx.org/vendor/lib/version.png)](https://packagist.org/packages/aydin-hassan/magento-core-mapper)
 [![Latest Stable Version](https://poser.pugx.org/aydin-hassan/strip-indent/v/stable.svg)](https://packagist.org/packages/aydin-hassan/strip-indent)
 
-A tiny library for stripping indents from multi-line scripts, inspired by: (sindresorhus/strip-indent)[https://github.com/sindresorhus/strip-indent]
+A tiny library for stripping indents from multi-line scripts, inspired by: [sindresorhus/strip-indent](https://github.com/sindresorhus/strip-indent)
 
 The indent amount is counted for the second row, (not the row containing the string declaration). This indent count is
 removed from each line.
