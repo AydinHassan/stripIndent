@@ -36,14 +36,14 @@ $multiLineString = '
     ';
 
 echo stripIndent($line);
-```
 
-Output:
-```
+/**
 <VirtualHost>
     <one>
         <two>
         </two>
     </one>
 </VirtualHost>
+**/
+
 ```
