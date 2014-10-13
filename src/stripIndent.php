@@ -14,7 +14,7 @@ function stripIndent($multiLineString)
 {
     $lines = explode("\n", $multiLineString);
 
-    if (count($lines) < 1) {
+    if (count($lines) <= 1) {
         return $multiLineString;
     }
 

@@ -82,4 +82,10 @@ class StripIndentTest extends \PHPUnit_Framework_TestCase
         $expected = "<one>\n\n    </VirtualHost>";
         $this->assertSame($expected, $stripped);
     }
+
+    public function testStringIsReturnedAsIfIfOneLine()
+    {
+        $line = '  notevenamultistring';
+        $this->assertSame($line, stripIndent($line));
+    }
 }
